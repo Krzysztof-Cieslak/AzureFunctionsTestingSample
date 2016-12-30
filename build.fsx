@@ -31,7 +31,4 @@ Target "Test" (fun _ ->
   ==> "Build"
   ==> "Test"
 
-
-
-
 RunTargetOrDefault "Test"
