@@ -1,3 +1,4 @@
+#if !TEST
 #r "System.Net.Http"
 #r "System.Net.Http.Formatting"
 #r "System.Web.Http"
@@ -5,6 +6,12 @@
 
 #if !COMPILED
 #r "../packages/Newtonsoft.Json/lib/net45/Newtonsoft.Json.dll"
+#r "../packages/Microsoft.AspNet.WebApi.Client/lib/net45/System.Net.Http.Formatting.dll"
+#r "../packages/Microsoft.AspNet.WebApi.Core/lib/net45/System.Web.Http.dll"
+#endif
+
+#else
+module MyAzureFunction
 #endif
 
 open System.Net

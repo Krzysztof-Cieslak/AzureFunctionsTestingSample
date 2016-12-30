@@ -2,3 +2,5 @@ source https://www.nuget.org/api/v2
 framework: net45
 
 nuget Newtonsoft.Json
+nuget Microsoft.AspNet.WebApi.Client
+nuget Microsoft.AspNet.WebApi.Core
