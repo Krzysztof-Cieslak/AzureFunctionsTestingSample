@@ -20,6 +20,8 @@ project.lock.json
 /App_Data
 /secrets
 /data
+/build
+.fake
 .secrets
 appsettings.json
 paket.exe
