@@ -1,2 +1,5 @@
 FSharp.Core
 Expecto
+Newtonsoft.Json
+Microsoft.AspNet.WebApi.Client
+Microsoft.AspNet.WebApi.Core

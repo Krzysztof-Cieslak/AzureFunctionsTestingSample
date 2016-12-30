@@ -6,3 +6,4 @@ nuget FSharp.Core
 nuget Newtonsoft.Json
 nuget Microsoft.AspNet.WebApi.Client
 nuget Microsoft.AspNet.WebApi.Core
+nuget FAKE
